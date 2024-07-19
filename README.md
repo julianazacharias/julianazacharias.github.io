@@ -1,8 +1,6 @@
 # My Portfolio Website
 
-## A cool and responsive portfolio
-
-In progress... Will be deployed soon...
+## A cool and responsive dev portfolio
 
 ## Built with
 
