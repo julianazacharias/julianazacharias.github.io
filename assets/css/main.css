@@ -450,10 +450,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 45vh;
-  left: 44vw;
-  animation: meteor 5967ms linear infinite;
-  animation-delay: 1795ms;
+  top: 13vh;
+  left: 80vw;
+  animation: meteor 3882ms linear infinite;
+  animation-delay: 4763ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -461,10 +461,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 27vh;
-  left: 16vw;
-  animation: meteor 3906ms linear infinite;
-  animation-delay: 4189ms;
+  top: 80vh;
+  left: 47vw;
+  animation: meteor 4365ms linear infinite;
+  animation-delay: 3809ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -472,10 +472,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 57vh;
-  left: 57vw;
-  animation: meteor 4926ms linear infinite;
-  animation-delay: 1415ms;
+  top: 24vh;
+  left: 10vw;
+  animation: meteor 4398ms linear infinite;
+  animation-delay: 1575ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -483,10 +483,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 75vh;
-  left: 16vw;
-  animation: meteor 3034ms linear infinite;
-  animation-delay: 1677ms;
+  top: 45vh;
+  left: 58vw;
+  animation: meteor 3294ms linear infinite;
+  animation-delay: 3051ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -494,10 +494,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 42vh;
-  left: 10vw;
-  animation: meteor 6022ms linear infinite;
-  animation-delay: 2812ms;
+  top: 67vh;
+  left: 1vw;
+  animation: meteor 7682ms linear infinite;
+  animation-delay: 4942ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -505,10 +505,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 36vh;
-  left: 72vw;
-  animation: meteor 7670ms linear infinite;
-  animation-delay: 4572ms;
+  top: 1vh;
+  left: 55vw;
+  animation: meteor 5175ms linear infinite;
+  animation-delay: 3030ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -516,10 +516,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 1vh;
-  left: 77vw;
-  animation: meteor 4123ms linear infinite;
-  animation-delay: 4250ms;
+  top: 6vh;
+  left: 40vw;
+  animation: meteor 4248ms linear infinite;
+  animation-delay: 2238ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -527,10 +527,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 12vh;
-  left: 74vw;
-  animation: meteor 6084ms linear infinite;
-  animation-delay: 4166ms;
+  top: 31vh;
+  left: 3vw;
+  animation: meteor 4845ms linear infinite;
+  animation-delay: 1741ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -538,10 +538,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 38vh;
-  left: 32vw;
-  animation: meteor 5088ms linear infinite;
-  animation-delay: 465ms;
+  top: 31vh;
+  left: 53vw;
+  animation: meteor 3841ms linear infinite;
+  animation-delay: 4917ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -549,10 +549,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 76vh;
-  left: 20vw;
-  animation: meteor 3352ms linear infinite;
-  animation-delay: 2553ms;
+  top: 17vh;
+  left: 74vw;
+  animation: meteor 5476ms linear infinite;
+  animation-delay: 3242ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -560,10 +560,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 7vh;
-  left: 67vw;
-  animation: meteor 4985ms linear infinite;
-  animation-delay: 3665ms;
+  top: 54vh;
+  left: 10vw;
+  animation: meteor 3383ms linear infinite;
+  animation-delay: 3550ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -571,10 +571,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 6vh;
-  left: 51vw;
-  animation: meteor 7882ms linear infinite;
-  animation-delay: 981ms;
+  top: 66vh;
+  left: 20vw;
+  animation: meteor 5589ms linear infinite;
+  animation-delay: 3002ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -582,10 +582,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 9vh;
-  left: 50vw;
-  animation: meteor 3157ms linear infinite;
-  animation-delay: 2433ms;
+  top: 52vh;
+  left: 47vw;
+  animation: meteor 3829ms linear infinite;
+  animation-delay: 4132ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -593,10 +593,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 80vh;
-  left: 44vw;
-  animation: meteor 4832ms linear infinite;
-  animation-delay: 787ms;
+  top: 19vh;
+  left: 74vw;
+  animation: meteor 7975ms linear infinite;
+  animation-delay: 2875ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -604,10 +604,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 2vh;
-  left: 22vw;
-  animation: meteor 7352ms linear infinite;
-  animation-delay: 910ms;
+  top: 15vh;
+  left: 40vw;
+  animation: meteor 7676ms linear infinite;
+  animation-delay: 4639ms;
 }
 
 @keyframes meteor {
@@ -1038,7 +1038,7 @@ main > section header.custom h2 {
 }
 
 .modal#workModal .modal-dialog {
-  max-width: 863px;
+  max-width: 900px;
 }
 .modal#workModal .modal-dialog .modal-content {
   padding: 32px;
@@ -1061,33 +1061,44 @@ main > section header.custom h2 {
   border-radius: 50%;
   border: none;
   transition: all 0.3s;
-  background: #14070c;
+  background: #c65480;
 }
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button {
   background: #843bb2;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button:hover {
-  background: #3b1423;
+  background: #872d50;
 }
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button:hover {
-  background: black;
+  background: #4b2265;
+}
+.light-mode .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button i {
+  color: white;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body img {
   width: 100%;
   height: 532px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 8px;
+  border-radius: 2.5rem;
+  transition: 0.3s ease;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.modal#workModal .modal-dialog .modal-content .modal-body:hover img {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .left {
   padding-left: 0;
   padding-right: 32px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .left h2 {
+  font-size: 32px;
   margin-top: 32px;
   margin-bottom: 16px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .left p {
+  font-size: 20px;
   color: hsl(300, 3%, 72%);
 }
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .left p {
@@ -1095,12 +1106,14 @@ main > section header.custom h2 {
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right {
   padding-right: 0;
-  padding-left: 32px;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right i {
-  font-size: 18px;
+  font-size: 24px;
   margin-right: 2px;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .right span {
+  font-size: 20px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .value {
   color: hsl(300, 3%, 72%);
@@ -1109,10 +1122,11 @@ main > section header.custom h2 {
   color: hsl(0, 1%, 35%);
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link {
-  margin-top: 32px;
+  margin-top: 18px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
+  font-size: 22px;
   text-decoration: none;
   color: #c65480;
 }
@@ -1121,6 +1135,22 @@ main > section header.custom h2 {
   color: #843bb2;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a:hover {
+  text-decoration: underline;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .right .github-link {
+  margin-top: 18px;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .right .github-link a,
+.modal#workModal .modal-dialog .modal-content .modal-body .right .github-link i {
+  font-size: 22px;
+  text-decoration: none;
+  color: #c65480;
+}
+.light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link a,
+.light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link i {
+  color: #843bb2;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .right .github-link a:hover {
   text-decoration: underline;
 }
 

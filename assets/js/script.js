@@ -1,3 +1,9 @@
+window.onload = function () {
+	alert(
+		"(Temporary alert!) Hail, fellow adventurer! This website in the digital realm has just been unlocked. At the moment, my projects are preparing for deployment, with many others on the horizon. Would you like to explore my GitHub until then? Feel free to invoke my assistance with any inquiries. May your journey be filled with thrilling discoveries and enchanted encounters! 🧙‍♂️"
+	);
+};
+
 let navLinks = document.querySelectorAll("a.inner-link");
 
 navLinks.forEach((item) => {
@@ -76,16 +82,16 @@ workElements.forEach((item) => {
 			item.getAttribute("data-title");
 		document.querySelector("#workModal .modal-body .description").innerText =
 			item.getAttribute("data-description");
-		document.querySelector("#workModal .modal-body .client .value").innerText =
-			item.getAttribute("data-client");
-		document.querySelector(
-			"#workModal .modal-body .completed .value"
-		).innerText = item.getAttribute("data-completed");
+		// document.querySelector("#workModal .modal-body .client .value").innerText =
+		// 	item.getAttribute("data-client");
+		// document.querySelector(
+		// 	"#workModal .modal-body .completed .value"
+		// ).innerText = item.getAttribute("data-completed");
 		document.querySelector("#workModal .modal-body .skills .value").innerText =
 			item.getAttribute("data-skills");
 		document
-			.querySelector("#workModal .modal-body .project-link a")
-			.setAttribute("href", item.getAttribute("data-project-link"));
+			.querySelector("#workModal .modal-body .github-link a")
+			.setAttribute("href", item.getAttribute("data-github-link"));
 
 		workModal.show();
 	});
