@@ -1,6 +1,6 @@
 //dark-mode colors
 $white: #fff;
-$dark_bg: #191718;
+$dark_bg: rgb(17, 4, 11);
 $dark_secondary: #311120;
 $dark_primary: #c65480;
 $dark_gray: hsl(300, 3%, 72%);
@@ -13,7 +13,7 @@ $dark_toggle_button: linear-gradient(180deg, #9c446e, #821554);
 
 //light-mode colors
 $gray: rgb(57, 57, 57);
-$light_bg: #fff7ed;
+$light_bg: #f8ede1;
 $light_secondary: #fcf2de;
 $light_primary: #843bb2;
 $light_gray: hsl(0, 1%, 35%);

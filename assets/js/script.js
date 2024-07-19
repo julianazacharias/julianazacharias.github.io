@@ -1,6 +1,6 @@
 window.onload = function () {
 	alert(
-		"(Temporary alert!) Hail, fellow adventurer! This website in the digital realm has just been unlocked. At the moment, my projects are preparing for deployment, with many others on the horizon. Would you like to explore my GitHub until then? Feel free to invoke my assistance with any inquiries. May your journey be filled with thrilling discoveries and enchanted encounters! 🧙‍♂️"
+		"* * * * * * * * * * * Temporary Alert ! * * * * * * * * * * * Hail, fellow adventurer! This website in the digital realm has just been unlocked. At the moment, my projects are preparing for deployment, with many others on the horizon. Would you like to explore my GitHub until then? Feel free to invoke my assistance with any inquiries. May your journey be filled with thrilling discoveries and enchanted encounters! 🧙‍♂️"
 	);
 };
 
