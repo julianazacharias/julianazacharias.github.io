@@ -162,10 +162,10 @@ main > section header.custom h2 {
 }
 
 .btn-custom-dark {
-  background: rgba(49, 17, 32, 0.75);
+  background: #311120;
 }
 .light-mode .btn-custom-dark {
-  background: rgba(252, 242, 222, 0.75);
+  background: rgba(209, 165, 225, 0.5);
 }
 
 #sidebar {
@@ -436,190 +436,7 @@ main > section header.custom h2 {
 #home .image img:hover {
   filter: grayscale(0.5);
 }
-#home .meteor-shower {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  right: 0;
-  top: 0;
-  overflow: hidden;
-}
-#home .meteor-shower .meteor:nth-child(1) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 49vh;
-  left: 63vw;
-  animation: meteor 6286ms linear infinite;
-  animation-delay: 2592ms;
-}
-#home .meteor-shower .meteor:nth-child(2) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 27vh;
-  left: 68vw;
-  animation: meteor 3869ms linear infinite;
-  animation-delay: 1364ms;
-}
-#home .meteor-shower .meteor:nth-child(3) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 67vh;
-  left: 25vw;
-  animation: meteor 4433ms linear infinite;
-  animation-delay: 4567ms;
-}
-#home .meteor-shower .meteor:nth-child(4) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 37vh;
-  left: 23vw;
-  animation: meteor 5090ms linear infinite;
-  animation-delay: 1074ms;
-}
-#home .meteor-shower .meteor:nth-child(5) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 60vh;
-  left: 28vw;
-  animation: meteor 4956ms linear infinite;
-  animation-delay: 232ms;
-}
-#home .meteor-shower .meteor:nth-child(6) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 7vh;
-  left: 71vw;
-  animation: meteor 7242ms linear infinite;
-  animation-delay: 4407ms;
-}
-#home .meteor-shower .meteor:nth-child(7) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 75vh;
-  left: 12vw;
-  animation: meteor 7991ms linear infinite;
-  animation-delay: 1395ms;
-}
-#home .meteor-shower .meteor:nth-child(8) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 55vh;
-  left: 67vw;
-  animation: meteor 7949ms linear infinite;
-  animation-delay: 2817ms;
-}
-#home .meteor-shower .meteor:nth-child(9) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 80vh;
-  left: 54vw;
-  animation: meteor 3154ms linear infinite;
-  animation-delay: 4987ms;
-}
-#home .meteor-shower .meteor:nth-child(10) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 65vh;
-  left: 77vw;
-  animation: meteor 4188ms linear infinite;
-  animation-delay: 887ms;
-}
-#home .meteor-shower .meteor:nth-child(11) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 73vh;
-  left: 53vw;
-  animation: meteor 4667ms linear infinite;
-  animation-delay: 2643ms;
-}
-#home .meteor-shower .meteor:nth-child(12) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 6vh;
-  left: 76vw;
-  animation: meteor 5256ms linear infinite;
-  animation-delay: 1566ms;
-}
-#home .meteor-shower .meteor:nth-child(13) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 74vh;
-  left: 66vw;
-  animation: meteor 7531ms linear infinite;
-  animation-delay: 3933ms;
-}
-#home .meteor-shower .meteor:nth-child(14) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 63vh;
-  left: 60vw;
-  animation: meteor 6580ms linear infinite;
-  animation-delay: 2841ms;
-}
-#home .meteor-shower .meteor:nth-child(15) {
-  position: absolute;
-  background-image: url("../images/meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 65vh;
-  left: 34vw;
-  animation: meteor 4683ms linear infinite;
-  animation-delay: 1393ms;
-}
 
-@keyframes meteor {
-  0% {
-    transform: translate(300px, -300px);
-    opacity: 1;
-  }
-  15% {
-    transform: translate(-300px, 300px);
-    opacity: 0;
-  }
-}
 #about_me {
   padding-top: 70px;
   background-image: url(../images/mandala-bg.png);
@@ -1121,22 +938,6 @@ main > section header.custom h2 {
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .value {
   color: hsl(0, 1%, 35%);
 }
-.modal#workModal .modal-dialog .modal-content .modal-body .right .project-link {
-  margin-top: 18px;
-}
-.modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
-.modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
-  font-size: 22px;
-  text-decoration: none;
-  color: #c65480;
-}
-.light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
-.light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
-  color: #843bb2;
-}
-.modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a:hover {
-  text-decoration: underline;
-}
 .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link {
   margin-top: 18px;
 }
@@ -1267,16 +1068,25 @@ main > section header.custom h2 {
 }
 
 @media (min-width: 1400px) {
+  .root {
+    padding: 40px;
+  }
   .container {
     max-width: 1200px;
   }
 }
 @media (max-width: 1199px) {
+  .root {
+    padding: 60px;
+  }
   #about_me .languages-skills .languages-soft-skills {
     padding-right: 12px;
   }
   #about_me .tech-skills {
     padding: 0px 20px;
+  }
+  #about_me .tech-skills h3 {
+    font-size: 14px;
   }
   #my_resume .experience {
     margin-top: 100px;
@@ -1292,6 +1102,23 @@ main > section header.custom h2 {
     margin-top: 40px;
     margin-bottom: 40px;
   }
+  #about_me .languages-skills h3,
+  #about_me .languages-skills span {
+    font-size: 12px;
+  }
+  #about_me .soft-skills {
+    margin-top: 60px;
+  }
+  #about_me .soft-skills h3 {
+    font-size: 12px;
+  }
+  #about_me .tech-skills h3 {
+    font-size: 12px;
+  }
+  #about_me .tech-skills img {
+    width: 30%;
+    height: auto;
+  }
   .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button {
     right: 10px;
     top: 10px;
@@ -1301,6 +1128,9 @@ main > section header.custom h2 {
   }
 }
 @media (max-width: 767px) {
+  .root {
+    padding: 60px;
+  }
   #sidebar {
     padding-right: 60px;
     transform: translateX(-100%);
@@ -1362,6 +1192,12 @@ main > section header.custom h2 {
   #about_me .hero .info .buttons a:first-child {
     margin-bottom: 16px;
   }
+  #about_me .tech-skills h3 {
+    font-size: 10px;
+  }
+  #my_resume .container {
+    padding: 50px;
+  }
   #my_resume .items .item {
     position: relative;
   }
@@ -1409,5 +1245,23 @@ main > section header.custom h2 {
   }
   #contact_me .container .info .item br {
     display: none;
+  }
+}
+@media (max-width: 574px) {
+  #home .container {
+    padding: 40px;
+  }
+  #about_me .container .info .row {
+    padding: 40px;
+  }
+  #about_me .container .info h1,
+  #about_me .container .info p {
+    padding: 40px;
+  }
+  #about_me .container .info .buttons {
+    padding: 40px;
+  }
+  #my_work .container {
+    padding: 40px;
   }
 }/*# sourceMappingURL=main.css.map */

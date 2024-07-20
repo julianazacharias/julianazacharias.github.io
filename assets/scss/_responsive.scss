@@ -1,213 +1,296 @@
 @media (min-width: 1400px) {
-    .container {
-        max-width: 1200px;
-    }
+	.root {
+		padding: 40px;
+	}
+	.container {
+		max-width: 1200px;
+	}
 }
 
 @media (max-width: 1199px) {
-    #about_me {
-        .languages-skills .languages-soft-skills {
-            padding-right: 12px;
-        }
-        .tech-skills {
-            padding: 0px 20px;
-        }
-    }
+	.root {
+		padding: 60px;
+	}
+	#about_me {
+		.languages-skills .languages-soft-skills {
+			padding-right: 12px;
+		}
+		.tech-skills {
+			padding: 0px 20px;
 
-    #my_resume {
-        .experience {
-            margin-top: 100px;
-        }
-    }
+			h3 {
+				font-size: 14px;
+			}
+		}
+	}
 
-    #contact_me {
-        .container {
-            .info {
-                padding-left: 12px;
-            }
-        }
-    }
+	#my_resume {
+		.experience {
+			margin-top: 100px;
+		}
+	}
+
+	#contact_me {
+		.container {
+			.info {
+				padding-left: 12px;
+			}
+		}
+	}
 }
 
 @media (max-width: 991px) {
-    #home {
-        .image {
-            justify-content: flex-start;
-            height: unset;
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-    }
+	#home {
+		.image {
+			justify-content: flex-start;
+			height: unset;
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+	}
 
-    .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button {
-        right: 10px;
-        top: 10px;
-    }
+	#about_me {
+		.languages-skills {
+			h3,
+			span {
+				font-size: 12px;
+			}
+		}
+		.soft-skills {
+			margin-top: 60px;
 
-    #contact_me {
-        .container {
-            .info {
-                margin-top: 80px;
-            }
-        }
-    }
+			h3 {
+				font-size: 12px;
+			}
+		}
+		.tech-skills {
+			h3 {
+				font-size: 12px;
+			}
+
+			img {
+				width: 30%;
+				height: auto;
+			}
+		}
+	}
+
+	.modal#workModal
+		.modal-dialog
+		.modal-content
+		.modal-body
+		.modal-close-button {
+		right: 10px;
+		top: 10px;
+	}
+
+	#contact_me {
+		.container {
+			.info {
+				margin-top: 80px;
+			}
+		}
+	}
 }
 
 @media (max-width: 767px) {
-    #sidebar {
-        padding-right: 60px;
-        transform: translateX(-100%);
-        transition: all 0.3s;
-        background: darken($dark_secondary, 30%);
+	.root {
+		padding: 60px;
+	}
+	#sidebar {
+		padding-right: 60px;
+		transform: translateX(-100%);
+		transition: all 0.3s;
+		background: darken($dark_secondary, 30%);
 
-        .light-mode & {
-            background: $light_secondary
-        }
+		.light-mode & {
+			background: $light_secondary;
+		}
 
-        &.open {
-            transform: translateX(0);
-        }
+		&.open {
+			transform: translateX(0);
+		}
 
-        .toggle-sidebar {
-            display: flex;
-        }
+		.toggle-sidebar {
+			display: flex;
+		}
 
-        .logo {
-            text-align: left;
-        }
+		.logo {
+			text-align: left;
+		}
 
-        nav ul li {
-            a {
-                display: flex;
-                align-items: center;
-                text-decoration: none;
+		nav ul li {
+			a {
+				display: flex;
+				align-items: center;
+				text-decoration: none;
 
-                span {
-                    display: block;
-                    padding-left: 8px;
-                }
-            }
+				span {
+					display: block;
+					padding-left: 8px;
+				}
+			}
 
-            >span {
-                display: none;
-            }
-        }
-    }
+			> span {
+				display: none;
+			}
+		}
+	}
 
-    h1 {
-        font-size: 36px;
-    }
+	h1 {
+		font-size: 36px;
+	}
 
-    h2 {
-        font-size: 20px;
-    }
+	h2 {
+		font-size: 20px;
+	}
 
-    main {
-        padding-left: 0;
-    }
+	main {
+		padding-left: 0;
+	}
 
-    #home {
-        background-image: unset;
+	#home {
+		background-image: unset;
 
-        .info {
-            padding-top: 80px;
+		.info {
+			padding-top: 80px;
 
-            .socials {
-                margin-top: 70px;
+			.socials {
+				margin-top: 70px;
 
-                ul {
-                    justify-content: space-between;
-                }
-            }
-        }
-    }
+				ul {
+					justify-content: space-between;
+				}
+			}
+		}
+	}
 
-    #about_me {
-        .hero .info .buttons {
-            flex-direction: column;
+	#about_me {
+		.hero .info .buttons {
+			flex-direction: column;
 
-            a {
-                width: 100%;
-                text-align: center;
+			a {
+				width: 100%;
+				text-align: center;
 
-                &:first-child {
-                    margin-bottom: 16px;
-                }
-            }
-        }
-    }
+				&:first-child {
+					margin-bottom: 16px;
+				}
+			}
+		}
 
-    #my_resume {
-        .items {
-            .item {
-                position: relative;
+		.tech-skills {
+			h3 {
+				font-size: 10px;
+			}
+		}
+	}
 
-                .icon {
-                    position: absolute;
-                    top: 50%;
-                    transform: translateY(-50%);
-                    left: -23px;
-                    z-index: 2;
-                    margin-top: 0;
-                    background: rgba($dark_secondary, 0.75);
+	#my_resume {
+		.container {
+			padding: 50px;
+		}
+		.items {
+			.item {
+				position: relative;
 
-                    .light-mode & {
-                        background: $light_secondary
-                    }
+				.icon {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					left: -23px;
+					z-index: 2;
+					margin-top: 0;
+					background: rgba($dark_secondary, 0.75);
 
-                    &:before {
-                        display: none;
-                    }
-                }
+					.light-mode & {
+						background: $light_secondary;
+					}
 
-                .box:before {
-                    display: none;
-                }
-            }
-        }
+					&:before {
+						display: none;
+					}
+				}
 
-        .education,
-        .experience {
-            padding-right: 12px;
-            padding-left: 12px;
-        }
-    }
+				.box:before {
+					display: none;
+				}
+			}
+		}
 
-    .modal#workModal {
-        .modal-dialog .modal-content .modal-body {
-            img {
-                height: unset;
-            }
+		.education,
+		.experience {
+			padding-right: 12px;
+			padding-left: 12px;
+		}
+	}
 
-            .left {
-                padding-right: 0;
-            }
+	.modal#workModal {
+		.modal-dialog .modal-content .modal-body {
+			img {
+				height: unset;
+			}
 
-            .right {
-                padding-left: 0;
-                padding-top: 32px;
-            }
-        }
-    }
+			.left {
+				padding-right: 0;
+			}
 
-    #contact_me {
-        .container {
-            .info {
-                .item {
-                    flex-direction: column;
-                    text-align: center;
-                    margin-bottom: 32px;
+			.right {
+				padding-left: 0;
+				padding-top: 32px;
+			}
+		}
+	}
 
-                    i {
-                        margin-right: 0;
-                        margin-bottom: 8px;
-                    }
+	#contact_me {
+		.container {
+			.info {
+				.item {
+					flex-direction: column;
+					text-align: center;
+					margin-bottom: 32px;
 
-                    br {
-                        display: none;
-                    }
-                }
-            }
-        }
-    }
+					i {
+						margin-right: 0;
+						margin-bottom: 8px;
+					}
+
+					br {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 574px) {
+	#home {
+		.container {
+			padding: 40px;
+		}
+	}
+	#about_me {
+		.container {
+			.info {
+				.row {
+					padding: 40px;
+				}
+				h1,
+				p {
+					padding: 40px;
+				}
+
+				.buttons {
+					padding: 40px;
+				}
+			}
+		}
+	}
+
+	#my_work {
+		.container {
+			padding: 40px;
+		}
+	}
 }

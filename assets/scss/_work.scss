@@ -216,24 +216,24 @@
 						}
 					}
 
-					.project-link {
-						margin-top: 18px;
+					// .project-link {
+					// 	margin-top: 18px;
 
-						a,
-						i {
-							font-size: 22px;
-							text-decoration: none;
-							color: $dark_primary;
+					// 	a,
+					// 	i {
+					// 		font-size: 22px;
+					// 		text-decoration: none;
+					// 		color: $dark_primary;
 
-							.light-mode & {
-								color: $light_primary;
-							}
-						}
+					// 		.light-mode & {
+					// 			color: $light_primary;
+					// 		}
+					// 	}
 
-						a:hover {
-							text-decoration: underline;
-						}
-					}
+					// 	a:hover {
+					// 		text-decoration: underline;
+					// 	}
+					// }
 
 					.github-link {
 						margin-top: 18px;

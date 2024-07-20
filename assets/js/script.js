@@ -1,24 +1,37 @@
 window.onload = function () {
-	alert(
-		"* * * * * * * * * * * Temporary Alert ! * * * * * * * * * * * Hail, fellow adventurer! This website in the digital realm has just been unlocked. At the moment, my projects are preparing for deployment, with many others on the horizon. Would you like to explore my GitHub until then? Feel free to invoke my assistance with any inquiries. May your journey be filled with thrilling discoveries and enchanted encounters! 🧙‍♂️"
-	);
+	var alertaExibidoTimestamp = localStorage.getItem("alertaExibidoTimestamp");
+	var now = new Date().getTime();
+	var umaHoraEmMilissegundos = 60 * 60 * 1000; // 1 hora em milissegundos
+
+	// Check if the alert was shown less than 1 hour ago
+	if (
+		!alertaExibidoTimestamp ||
+		now - alertaExibidoTimestamp > umaHoraEmMilissegundos
+	) {
+		alert(
+			"* * * * * * * * * * * Temporary Alert ! * * * * * * * * * * * Hail, fellow adventurer! This website in the digital realm has just been unlocked. At the moment, my projects are preparing for deployment, with many others on the horizon. Would you like to explore my GitHub until then? Feel free to invoke my assistance with any inquiries. May your journey be filled with thrilling discoveries and enchanted encounters! 🧙‍♂️"
+		);
+
+		// Update the timestamp in localStorage to now
+		localStorage.setItem("alertaExibidoTimestamp", now);
+	}
 };
 
-let navLinks = document.querySelectorAll("a.inner-link");
+// let navLinks = document.querySelectorAll("a.inner-link");
 
-navLinks.forEach((item) => {
-	item.addEventListener("click", function () {
-		console.log(item);
-		document.querySelector("nav ul li a.active").classList.remove("active");
-		document
-			.querySelector(`nav ul li a[href='${item.getAttribute("href")}']`)
-			.classList.add("active");
-		document.querySelector("main > section.active").classList.remove("active");
-		document
-			.querySelector(`main > section${item.getAttribute("href")}`)
-			.classList.add("active");
-	});
-});
+// navLinks.forEach((item) => {
+// 	item.addEventListener("click", function () {
+// 		console.log(item);
+// 		document.querySelector("nav ul li a.active").classList.remove("active");
+// 		document
+// 			.querySelector(`nav ul li a[href='${item.getAttribute("href")}']`)
+// 			.classList.add("active");
+// 		document.querySelector("main > section.active").classList.remove("active");
+// 		document
+// 			.querySelector(`main > section${item.getAttribute("href")}`)
+// 			.classList.add("active");
+// 	});
+// });
 
 document
 	.querySelector("#sidebar .toggle-sidebar")
@@ -38,11 +51,11 @@ var typed = new Typed(".field h2", {
 	backSpeed: 15,
 });
 
-for (let i = 1; i <= 15; i++) {
-	let meteor = document.createElement("span");
-	meteor.classList = "meteor";
-	document.querySelector("#home .meteor-shower").append(meteor);
-}
+// for (let i = 1; i <= 15; i++) {
+// 	let meteor = document.createElement("span");
+// 	meteor.classList = "meteor";
+// 	document.querySelector("#home .meteor-shower").append(meteor);
+// }
 
 const shuffleInstance = new Shuffle(
 	document.querySelector("#my_work .work-items"),
