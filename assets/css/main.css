@@ -186,10 +186,10 @@ main > section header.custom h2 {
   justify-content: center;
   align-items: center;
   right: -45px;
-  background: black;
+  background: #311120;
 }
 .light-mode #sidebar .toggle-sidebar {
-  background: #f4cd81;
+  background: #f8e0af;
 }
 #sidebar label {
   width: 70px;
@@ -1102,23 +1102,6 @@ main > section header.custom h2 {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  #about_me .languages-skills h3,
-  #about_me .languages-skills span {
-    font-size: 12px;
-  }
-  #about_me .soft-skills {
-    margin-top: 60px;
-  }
-  #about_me .soft-skills h3 {
-    font-size: 12px;
-  }
-  #about_me .tech-skills h3 {
-    font-size: 12px;
-  }
-  #about_me .tech-skills img {
-    width: 30%;
-    height: auto;
-  }
   .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button {
     right: 10px;
     top: 10px;
@@ -1153,10 +1136,26 @@ main > section header.custom h2 {
     display: flex;
     align-items: center;
     text-decoration: none;
+    padding-left: 8px;
+  }
+  #sidebar nav ul li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    border-radius: 8px;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.3s;
+    background: #c65480;
+  }
+  .light-mode #sidebar nav ul li a:before {
+    background: #bd7fd4;
   }
   #sidebar nav ul li a span {
     display: block;
     padding-left: 8px;
+    padding-right: 8px;
   }
   #sidebar nav ul li > span {
     display: none;
@@ -1192,8 +1191,34 @@ main > section header.custom h2 {
   #about_me .hero .info .buttons a:first-child {
     margin-bottom: 16px;
   }
+  #about_me .rate span {
+    width: 12px;
+    height: 12px;
+  }
+  #about_me .rate span:before {
+    width: 12px;
+    height: 12px;
+  }
+  #about_me .rate span::after {
+    width: 12px;
+    height: 12px;
+  }
+  #about_me .languages-skills h3,
+  #about_me .languages-skills span {
+    font-size: 12px;
+  }
+  #about_me .soft-skills {
+    margin-top: 60px;
+  }
+  #about_me .soft-skills h3 {
+    font-size: 12px;
+  }
   #about_me .tech-skills h3 {
-    font-size: 10px;
+    font-size: 12px;
+  }
+  #about_me .tech-skills img {
+    width: 30%;
+    height: auto;
   }
   #my_resume .container {
     padding: 50px;
@@ -1230,9 +1255,32 @@ main > section header.custom h2 {
   .modal#workModal .modal-dialog .modal-content .modal-body .left {
     padding-right: 0;
   }
+  .modal#workModal .modal-dialog .modal-content .modal-body .left h2 {
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+  .modal#workModal .modal-dialog .modal-content .modal-body .left p {
+    font-size: 16px;
+  }
   .modal#workModal .modal-dialog .modal-content .modal-body .right {
     padding-left: 0;
     padding-top: 32px;
+  }
+  .modal#workModal .modal-dialog .modal-content .modal-body .right i {
+    font-size: 18px;
+  }
+  .modal#workModal .modal-dialog .modal-content .modal-body .right span {
+    font-size: 16px;
+  }
+  .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link {
+    margin-top: 18px;
+  }
+  .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link a,
+  .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link i {
+    font-size: 18px;
+    text-decoration: none;
+    color: #c65480;
   }
   #contact_me .container .info .item {
     flex-direction: column;

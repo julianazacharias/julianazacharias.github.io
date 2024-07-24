@@ -17,21 +17,18 @@ window.onload = function () {
 	}
 };
 
-// let navLinks = document.querySelectorAll("a.inner-link");
+let navLinks = document.querySelectorAll("a.inner-link");
 
-// navLinks.forEach((item) => {
-// 	item.addEventListener("click", function () {
-// 		console.log(item);
-// 		document.querySelector("nav ul li a.active").classList.remove("active");
-// 		document
-// 			.querySelector(`nav ul li a[href='${item.getAttribute("href")}']`)
-// 			.classList.add("active");
-// 		document.querySelector("main > section.active").classList.remove("active");
-// 		document
-// 			.querySelector(`main > section${item.getAttribute("href")}`)
-// 			.classList.add("active");
-// 	});
-// });
+navLinks.forEach((item) => {
+	item.addEventListener("click", function () {
+		// console.log(item);
+		document.querySelector("nav ul li a.active").classList.remove("active");
+		document
+			.querySelector(`nav ul li a[href='${item.getAttribute("href")}']`)
+			.classList.add("active");
+		document.querySelector(`main > section${item.getAttribute("href")}`);
+	});
+});
 
 document
 	.querySelector("#sidebar .toggle-sidebar")
@@ -50,12 +47,6 @@ var typed = new Typed(".field h2", {
 	typeSpeed: 60,
 	backSpeed: 15,
 });
-
-// for (let i = 1; i <= 15; i++) {
-// 	let meteor = document.createElement("span");
-// 	meteor.classList = "meteor";
-// 	document.querySelector("#home .meteor-shower").append(meteor);
-// }
 
 const shuffleInstance = new Shuffle(
 	document.querySelector("#my_work .work-items"),
@@ -121,19 +112,6 @@ workModalElement.addEventListener("hide.bs.modal", function (event) {
 	document.getElementById("sidebar").classList.remove("blur");
 });
 
-// document
-// 	.getElementById("style-switcher")
-// 	.addEventListener("change", function () {
-// 		document.body.classList.toggle("light-mode", this.checked);
-// 	});
-
-// document.getElementById('style-switcher').addEventListener('change', function () {
-//     document.body.classList.toggle('light-mode', this.checked);
-//     });
-
-// Function to handle style switcher change
-
-// Function to handle style switcher change
 function handleStyleSwitcherChange() {
 	const isLightMode = this.checked;
 
