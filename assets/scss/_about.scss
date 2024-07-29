@@ -185,6 +185,7 @@
 					z-index: 1;
 					overflow: hidden;
 					background: $dark_secondary;
+					height: 170px;
 
 					.light-mode & {
 						background: $light_secondary;
