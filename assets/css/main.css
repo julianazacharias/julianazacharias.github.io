@@ -927,11 +927,11 @@ main > section header.custom h2 {
   padding-top: 60px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right i {
-  font-size: 24px;
+  font-size: 20px;
   margin-right: 2px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right span {
-  font-size: 20px;
+  font-size: 18px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .value {
   color: hsl(300, 3%, 72%);
@@ -939,18 +939,42 @@ main > section header.custom h2 {
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .value {
   color: hsl(0, 1%, 35%);
 }
+.modal#workModal .modal-dialog .modal-content .modal-body .right .project-link {
+  margin-top: 10px;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
+.modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
+  font-size: 20px;
+  text-decoration: none;
+  color: #c65480;
+}
+.light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
+.light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
+  color: #843bb2;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
+  margin-top: 8px;
+  margin-right: 4px;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a:hover {
+  text-decoration: underline;
+}
 .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link {
-  margin-top: 18px;
+  margin-top: 10px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link a,
 .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link i {
-  font-size: 22px;
+  font-size: 20px;
   text-decoration: none;
   color: #c65480;
 }
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link a,
 .light-mode .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link i {
   color: #843bb2;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .right .github-link i {
+  margin-top: 4px;
+  margin-right: 8px;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .github-link a:hover {
   text-decoration: underline;

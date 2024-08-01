@@ -200,12 +200,12 @@
 					padding-top: 60px;
 
 					i {
-						font-size: 24px;
+						font-size: 20px;
 						margin-right: 2px;
 					}
 
 					span {
-						font-size: 20px;
+						font-size: 18px;
 					}
 
 					.value {
@@ -216,37 +216,47 @@
 						}
 					}
 
-					// .project-link {
-					// 	margin-top: 18px;
-
-					// 	a,
-					// 	i {
-					// 		font-size: 22px;
-					// 		text-decoration: none;
-					// 		color: $dark_primary;
-
-					// 		.light-mode & {
-					// 			color: $light_primary;
-					// 		}
-					// 	}
-
-					// 	a:hover {
-					// 		text-decoration: underline;
-					// 	}
-					// }
-
-					.github-link {
-						margin-top: 18px;
+					.project-link {
+						margin-top: 10px;
 
 						a,
 						i {
-							font-size: 22px;
+							font-size: 20px;
 							text-decoration: none;
 							color: $dark_primary;
 
 							.light-mode & {
 								color: $light_primary;
 							}
+						}
+
+						i {
+							margin-top: 8px;
+							margin-right: 4px;
+						}
+
+						a:hover {
+							text-decoration: underline;
+						}
+					}
+
+					.github-link {
+						margin-top: 10px;
+
+						a,
+						i {
+							font-size: 20px;
+							text-decoration: none;
+							color: $dark_primary;
+
+							.light-mode & {
+								color: $light_primary;
+							}
+						}
+
+						i {
+							margin-top: 4px;
+							margin-right: 8px;
 						}
 
 						a:hover {

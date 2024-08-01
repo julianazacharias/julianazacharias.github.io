@@ -1,22 +1,3 @@
-window.onload = function () {
-	var alertaExibidoTimestamp = localStorage.getItem("alertaExibidoTimestamp");
-	var now = new Date().getTime();
-	var umaHoraEmMilissegundos = 60 * 60 * 1000; // 1 hora em milissegundos
-
-	// Check if the alert was shown less than 1 hour ago
-	if (
-		!alertaExibidoTimestamp ||
-		now - alertaExibidoTimestamp > umaHoraEmMilissegundos
-	) {
-		alert(
-			"* * * * * * * * * * * Temporary Alert ! * * * * * * * * * * * Hail, fellow adventurer! This website in the digital realm has just been unlocked. At the moment, my projects are preparing for deployment, with many others on the horizon. Would you like to explore my GitHub until then? Feel free to invoke my assistance with any inquiries. May your journey be filled with thrilling discoveries and enchanted encounters! 🧙‍♂️"
-		);
-
-		// Update the timestamp in localStorage to now
-		localStorage.setItem("alertaExibidoTimestamp", now);
-	}
-};
-
 let navLinks = document.querySelectorAll("a.inner-link");
 
 navLinks.forEach((item) => {
@@ -77,26 +58,86 @@ function workFilter() {
 var workModal = new bootstrap.Modal(document.getElementById("workModal"));
 const workElements = document.querySelectorAll("#my_work .work-items .wrap");
 
+// workElements.forEach((item) => {
+// 	item.addEventListener("click", function () {
+// 		document
+// 			.querySelector("#workModal .modal-body img")
+// 			.setAttribute("src", item.getAttribute("data-image"));
+// 		document.querySelector("#workModal .modal-body .title").innerText =
+// 			item.getAttribute("data-title");
+// 		document.querySelector("#workModal .modal-body .description").innerText =
+// 			item.getAttribute("data-description");
+// 		// document.querySelector("#workModal .modal-body .client .value").innerText =
+// 		// 	item.getAttribute("data-client");
+// 		// document.querySelector(
+// 		// 	"#workModal .modal-body .completed .value"
+// 		// ).innerText = item.getAttribute("data-completed");
+// 		document.querySelector("#workModal .modal-body .skills .value").innerText =
+// 			item.getAttribute("data-skills");
+// 		document
+// 			.querySelector("#workModal .modal-body .project-link a")
+// 			.setAttribute("href", item.getAttribute("data-project-link"));
+// 		document
+// 			.querySelector("#workModal .modal-body .github-link a")
+// 			.setAttribute("href", item.getAttribute("data-github-link"));
+
+// 		workModal.show();
+// 	});
+// });
+
 workElements.forEach((item) => {
 	item.addEventListener("click", function () {
+		const imageSrc = item.getAttribute("data-image");
+		const titleText = item.getAttribute("data-title");
+		const descriptionText = item.getAttribute("data-description");
+		const skillsText = item.getAttribute("data-skills");
+		const projectLink = item.getAttribute("data-project-link");
+		const githubLink = item.getAttribute("data-github-link");
+
+		// Update the modal content
 		document
 			.querySelector("#workModal .modal-body img")
-			.setAttribute("src", item.getAttribute("data-image"));
+			.setAttribute("src", imageSrc);
 		document.querySelector("#workModal .modal-body .title").innerText =
-			item.getAttribute("data-title");
+			titleText;
 		document.querySelector("#workModal .modal-body .description").innerText =
-			item.getAttribute("data-description");
-		// document.querySelector("#workModal .modal-body .client .value").innerText =
-		// 	item.getAttribute("data-client");
-		// document.querySelector(
-		// 	"#workModal .modal-body .completed .value"
-		// ).innerText = item.getAttribute("data-completed");
+			descriptionText;
 		document.querySelector("#workModal .modal-body .skills .value").innerText =
-			item.getAttribute("data-skills");
-		document
-			.querySelector("#workModal .modal-body .github-link a")
-			.setAttribute("href", item.getAttribute("data-github-link"));
+			skillsText;
 
+		// Handle project link elements
+		const projectLinkDiv = document.querySelector(
+			"#workModal .modal-body .project-link"
+		);
+		const projectLinkIcon = projectLinkDiv.querySelector("i");
+		const projectLinkAnchor = projectLinkDiv.querySelector("a");
+
+		if (projectLink === null || projectLink.trim() === "") {
+			projectLinkDiv.style.display = "none"; // Hide the entire div
+		} else {
+			projectLinkAnchor.setAttribute("href", projectLink);
+			projectLinkAnchor.style.display = "inline";
+			projectLinkIcon.style.display = "inline";
+			projectLinkDiv.style.display = "flex"; // Show the div
+		}
+
+		// Handle GitHub link elements
+		const githubLinkDiv = document.querySelector(
+			"#workModal .modal-body .github-link"
+		);
+		const githubLinkIcon = githubLinkDiv.querySelector("i");
+		const githubLinkAnchor = githubLinkDiv.querySelector("a");
+
+		if (githubLink === null || githubLink.trim() === "") {
+			githubLinkDiv.style.display = "none"; // Hide the entire div
+		} else {
+			githubLinkAnchor.setAttribute("href", githubLink);
+			githubLinkAnchor.style.display = "inline";
+			githubLinkIcon.style.display = "inline";
+			githubLinkDiv.style.display = "flex"; // Show the div
+		}
+
+		// Show the modal
 		workModal.show();
 	});
 });
