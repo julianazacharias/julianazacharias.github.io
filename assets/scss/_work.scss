@@ -5,6 +5,27 @@
 		filter: blur(2px);
 	}
 
+	.message {
+		margin-top: 20px;
+		justify-content: center;
+		text-align: center;
+		border: none;
+		border-radius: 8px;
+		padding: 8px 16px;
+		margin-right: 8px;
+		margin-left: 8px;
+		margin-bottom: 16px;
+		background: rgba($dark_primary, 0.1);
+		.light-mode & {
+			background: rgba($light_primary, 0.1);
+			color: $gray;
+		}
+
+		p {
+			font-size: 16px;
+		}
+	}
+
 	.filters {
 		text-align: center;
 		margin-top: 81px;

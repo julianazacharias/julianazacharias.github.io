@@ -768,6 +768,25 @@ main > section header.custom h2 {
 #my_work.blur {
   filter: blur(2px);
 }
+#my_work .message {
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 16px;
+  background: rgba(198, 84, 128, 0.1);
+}
+.light-mode #my_work .message {
+  background: rgba(132, 59, 178, 0.1);
+  color: rgb(57, 57, 57);
+}
+#my_work .message p {
+  font-size: 16px;
+}
 #my_work .filters {
   text-align: center;
   margin-top: 81px;
