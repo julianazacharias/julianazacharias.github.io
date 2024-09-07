@@ -52,7 +52,7 @@ body {
 }
 
 body:not(.light-mode) {
-  background: rgb(17, 4, 11);
+  background: rgb(15, 3, 9);
 }
 
 body.light-mode {
@@ -734,7 +734,7 @@ main > section header.custom h2 {
   background: #4e1a2e;
 }
 .light-mode #my_resume .items .item .box:after {
-  background: rgba(104, 46, 140, 0.2);
+  background: rgba(132, 59, 178, 0.3);
 }
 #my_resume .items .item .box .year {
   display: inline-block;
@@ -812,7 +812,7 @@ main > section header.custom h2 {
   color: #fff;
 }
 .light-mode #my_work .filters button.active {
-  background: rgba(132, 59, 178, 0.6);
+  background: rgba(132, 59, 178, 0.4);
   color: rgb(57, 57, 57);
 }
 #my_work .work-items .item {
@@ -821,57 +821,61 @@ main > section header.custom h2 {
 #my_work .work-items .item .wrap {
   position: relative;
   overflow: hidden;
-}
-#my_work .work-items .item .wrap:hover:before {
-  transform: rotate(0deg);
-}
-#my_work .work-items .item .wrap:hover:after {
-  transform: translate(-50%, -50%) rotate(0deg);
-}
-#my_work .work-items .item .wrap:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 320px;
+  height: 320px;
   border-radius: 8px;
-  z-index: 1;
+  padding: 32px 16px;
+  margin: 35px;
+  text-align: center;
   cursor: pointer;
-  transform: rotate(-100deg);
-  transform-origin: top left;
+  background: #612039;
+}
+.light-mode #my_work .work-items .item .wrap {
+  background: rgba(132, 59, 178, 0.3);
+  color: rgb(57, 57, 57);
+}
+#my_work .work-items .item .wrap:hover {
   transition: all 0.3s;
   background: rgba(198, 84, 128, 0.6);
 }
-.light-mode #my_work .work-items .item .wrap:before {
-  background: rgba(132, 59, 178, 0.6);
+.light-mode #my_work .work-items .item .wrap:hover {
+  background: rgba(132, 59, 178, 0.4);
 }
-#my_work .work-items .item .wrap:after {
-  content: "View";
-  position: absolute;
-  width: 96%;
-  height: 95%;
-  border-radius: 8px;
-  transform-origin: bottom left;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(100deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#my_work .work-items .item .wrap h3 {
+  margin-bottom: 20px;
   font-size: 24px;
-  letter-spacing: 3px;
-  z-index: 2;
-  cursor: pointer;
-  transition: all 0.3s;
-  background: rgba(17, 4, 11, 0.8);
+  font-weight: bold;
 }
-.light-mode #my_work .work-items .item .wrap:after {
-  background: rgba(252, 242, 229, 0.8);
+#my_work .work-items .item .wrap .details {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-#my_work .work-items .item .wrap img {
-  width: 100%;
-  opacity: 0.5;
-  border-radius: 8px;
-  cursor: pointer;
+#my_work .work-items .item .wrap .links {
+  align-items: center;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#my_work .work-items .item .wrap .tech-stack {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  margin: 0 2px 0 2px;
+}
+#my_work .work-items .item .wrap i {
+  font-size: 22px;
+  padding-right: 4px;
+}
+#my_work .work-items .item .wrap a {
+  text-decoration: none;
+  margin: 0 14px 0 14px;
+}
+#my_work .work-items .item .wrap a:hover {
+  text-decoration: underline;
+}
+#my_work .work-items .item .wrap span {
+  font-size: 16px;
 }
 
 .modal#workModal .modal-dialog {

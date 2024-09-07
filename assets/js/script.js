@@ -56,34 +56,7 @@ function workFilter() {
 }
 
 var workModal = new bootstrap.Modal(document.getElementById("workModal"));
-const workElements = document.querySelectorAll("#my_work .work-items .wrap");
-
-// workElements.forEach((item) => {
-// 	item.addEventListener("click", function () {
-// 		document
-// 			.querySelector("#workModal .modal-body img")
-// 			.setAttribute("src", item.getAttribute("data-image"));
-// 		document.querySelector("#workModal .modal-body .title").innerText =
-// 			item.getAttribute("data-title");
-// 		document.querySelector("#workModal .modal-body .description").innerText =
-// 			item.getAttribute("data-description");
-// 		// document.querySelector("#workModal .modal-body .client .value").innerText =
-// 		// 	item.getAttribute("data-client");
-// 		// document.querySelector(
-// 		// 	"#workModal .modal-body .completed .value"
-// 		// ).innerText = item.getAttribute("data-completed");
-// 		document.querySelector("#workModal .modal-body .skills .value").innerText =
-// 			item.getAttribute("data-skills");
-// 		document
-// 			.querySelector("#workModal .modal-body .project-link a")
-// 			.setAttribute("href", item.getAttribute("data-project-link"));
-// 		document
-// 			.querySelector("#workModal .modal-body .github-link a")
-// 			.setAttribute("href", item.getAttribute("data-github-link"));
-
-// 		workModal.show();
-// 	});
-// });
+const workElements = document.querySelectorAll("#my_work .work-items .details");
 
 workElements.forEach((item) => {
 	item.addEventListener("click", function () {
