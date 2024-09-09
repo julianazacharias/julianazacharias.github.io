@@ -73,10 +73,10 @@
 
 					&:hover {
 						border-radius: 6px;
-						background: $dark_secondary;
+						background: darken($dark_primary, 25%);
 
 						.light-mode & {
-							background: $light_secondary;
+							background: rgba($light_primary, 0.15);
 						}
 
 						span,

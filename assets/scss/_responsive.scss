@@ -213,6 +213,49 @@
 		}
 	}
 
+	#my_work {
+		.wrap {
+			width: 100%;
+			height: auto;
+			margin: 20px 0;
+			padding: 16px;
+
+			h3 {
+				font-size: 20px;
+				margin-bottom: 15px;
+			}
+
+			.details {
+				padding-top: 8px;
+				padding-bottom: 8px;
+			}
+
+			.links {
+				padding-top: 15px;
+				padding-bottom: 15px;
+				flex-direction: column;
+				align-items: flex-start;
+			}
+
+			.links {
+				flex-direction: column;
+			}
+
+			.tech-img {
+				margin: 15px 1px 15px 1px;
+			}
+
+			a {
+				flex-direction: column;
+				align-items: flex-start;
+				i {
+					margin-right: 0;
+					margin-bottom: 4px; // Add space between icon and text on smaller screens
+				}
+			}
+		}
+	}
+
 	#my_resume {
 		.container {
 			padding: 50px;
