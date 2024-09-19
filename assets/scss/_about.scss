@@ -184,7 +184,8 @@
 					border-radius: 8px;
 					z-index: 1;
 					overflow: hidden;
-					height: 170px;
+					width: 100%;
+					height: auto;
 					background: $dark_secondary;
 
 					.light-mode & {
