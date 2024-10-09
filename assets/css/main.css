@@ -56,7 +56,7 @@ body:not(.light-mode) {
 }
 
 body.light-mode {
-  background: #fcf2e5;
+  background: #fdf9f2;
 }
 
 * {
@@ -110,7 +110,7 @@ main > section header.custom:before {
   background: #311120;
 }
 .light-mode main > section header.custom:before {
-  background: #fbefd5;
+  background: #fff6e5;
 }
 main > section header.custom h2 {
   display: inline-block;
@@ -189,7 +189,7 @@ main > section header.custom h2 {
   background: #311120;
 }
 .light-mode #sidebar .toggle-sidebar {
-  background: #f7dda6;
+  background: #ffe4b2;
 }
 #sidebar label {
   width: 70px;
@@ -221,7 +221,7 @@ main > section header.custom h2 {
   visibility: hidden;
 }
 #sidebar input:checked + label {
-  background: rgb(255, 233, 194);
+  background: rgb(255, 243, 221);
 }
 #sidebar input:checked + label:after {
   content: "\f185";
@@ -230,7 +230,7 @@ main > section header.custom h2 {
   font-size: 18px;
   left: 66px;
   transform: translateX(-100%);
-  background: linear-gradient(180deg, #fee3b3, #ffd37b);
+  background: linear-gradient(180deg, #ffebc8, #ffda90);
 }
 #sidebar label:active:after {
   width: 26px;
@@ -308,7 +308,7 @@ main > section header.custom h2 {
   background: rgba(49, 17, 32, 0.75);
 }
 .light-mode #sidebar nav ul li > span {
-  background: rgba(251, 239, 213, 0.75);
+  background: rgba(255, 246, 229, 0.75);
 }
 #sidebar nav ul li:hover i {
   color: #c65480;
@@ -505,7 +505,7 @@ main > section header.custom h2 {
   background: #311120;
 }
 .light-mode #about_me .rate span:before {
-  background: #fbefd5;
+  background: #fff6e5;
 }
 #about_me .rate span:after {
   position: absolute;
@@ -517,7 +517,7 @@ main > section header.custom h2 {
   background: #311120;
 }
 .light-mode #about_me .rate span:after {
-  background: #fbefd5;
+  background: #fff6e5;
 }
 #about_me .rate span.fill:before, #about_me .rate span.fill:after {
   background: #c65480;
@@ -585,7 +585,7 @@ main > section header.custom h2 {
   background: #311120;
 }
 .light-mode #about_me .languages-skills .tech-skills .items .item {
-  background: #fbefd5;
+  background: #fff6e5;
 }
 #about_me .languages-skills .tech-skills .items .item:hover {
   transition: all 0.3s;
@@ -689,7 +689,7 @@ main > section header.custom h2 {
   transition: all 0.3s;
 }
 .light-mode #my_resume .items .item .icon:before {
-  background: #fbefd5;
+  background: #fff6e5;
 }
 #my_resume .items .item .box {
   position: relative;
@@ -703,7 +703,7 @@ main > section header.custom h2 {
   height: 230px; /* Adjust the height as needed */
 }
 .light-mode #my_resume .items .item .box {
-  background: rgba(251, 239, 213, 0.75);
+  background: rgba(255, 246, 229, 0.75);
 }
 #my_resume .items .item .box:before {
   content: "";
@@ -715,7 +715,7 @@ main > section header.custom h2 {
   border-right: 9px solid rgba(49, 17, 32, 0.75);
 }
 .light-mode #my_resume .items .item .box:before {
-  border-right: 9px solid rgba(251, 239, 213, 0.75);
+  border-right: 9px solid rgba(255, 246, 229, 0.75);
 }
 #my_resume .items .item .box:after {
   content: "";
@@ -785,8 +785,8 @@ main > section header.custom h2 {
 }
 #my_work .filters {
   text-align: center;
-  margin-top: 81px;
-  margin-bottom: 55px;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 #my_work .filters button {
   border: none;
@@ -872,6 +872,9 @@ main > section header.custom h2 {
   height: auto;
   display: block;
 }
+#my_work .work-items .item .wrap .tech-stack .stripe {
+  margin-top: 8px;
+}
 #my_work .work-items .item .wrap i {
   font-size: 22px;
   margin-right: 4px;
@@ -892,7 +895,7 @@ main > section header.custom h2 {
   background: #311120;
 }
 .light-mode .modal#workModal .modal-dialog .modal-content {
-  background: #fbefd5;
+  background: #fff6e5;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body {
   padding: 0;
@@ -1175,7 +1178,7 @@ main > section header.custom h2 {
     background: black;
   }
   .light-mode #sidebar {
-    background: #fbefd5;
+    background: #fff6e5;
   }
   #sidebar.open {
     transform: translateX(0);
@@ -1324,7 +1327,7 @@ main > section header.custom h2 {
     background: rgba(49, 17, 32, 0.75);
   }
   .light-mode #my_resume .items .item .icon {
-    background: #fbefd5;
+    background: #fff6e5;
   }
   #my_resume .items .item .icon:before {
     display: none;
