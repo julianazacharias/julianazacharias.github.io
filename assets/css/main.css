@@ -845,14 +845,13 @@ main > section header.custom h2 {
 }
 #my_work .work-items .item .wrap .details {
   padding-top: 10px;
-  padding-bottom: 10px;
 }
 #my_work .work-items .item .wrap .links {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 20px;
 }
 #my_work .work-items .item .wrap .tech-stack {
