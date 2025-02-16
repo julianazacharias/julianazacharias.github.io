@@ -1,25 +1,25 @@
 //dark-mode colors
 $white: #fff;
-$dark_bg: rgb(15, 3, 9);
-$dark_secondary: #311120;
-$dark_primary: #c65480;
+$dark_bg: rgb(3, 10, 15);
+$dark_secondary: rgb(17, 38, 49);
+$dark_primary: #549ac6;
 $dark_gray: hsl(300, 3%, 72%);
 $dark_secondary_gray: #8d888b;
 $dark_years: #53fb9f;
-$dark_button_bg: #5c1031;
+$dark_button_bg: #103c5c;
 $dark_icon_bg: #ff15150d;
-$dark_toggle_background: rgb(41, 9, 23);
-$dark_toggle_button: linear-gradient(180deg, rgb(119, 45, 79), #851659);
+$dark_toggle_background: rgb(9, 28, 41);
+$dark_toggle_button: linear-gradient(180deg, rgb(45, 91, 119), #165e85);
 
 //light-mode colors
 $gray: rgb(57, 57, 57);
-$light_bg: #fdf9f2;
+$light_bg: #fff8ec;
 $light_secondary: #fff6e5;
-$light_primary: #843bb2;
+$light_primary: #b23ba2;
 $light_gray: hsl(0, 1%, 35%);
-$light_secondary_gray: #6f4e7d;
+$light_secondary_gray: #7d4e71;
 $light_years: #0069cc;
-$light_button_bg: #d1a5e1;
+$light_button_bg: #e1a5d6;
 $light_icon_bg: #ff15150d;
 $light_toggle_background: rgb(255, 243, 221);
 $light_toggle_button: linear-gradient(180deg, #ffebc8, #ffda90);
