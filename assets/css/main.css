@@ -447,6 +447,14 @@ main > section header.custom h2 {
   background-image: url(../images/flower-bg.png);
   background-position: 70vw 20px;
 }
+#about_me img {
+  border-radius: 8px;
+  max-width: 100%;
+  transition: all 0.3s;
+}
+#about_me img:hover {
+  filter: grayscale(0.5);
+}
 #about_me h2 {
   text-align: center;
 }

@@ -9,6 +9,16 @@
 		background-position: 70vw 20px;
 	}
 
+	img {
+		border-radius: 8px;
+		max-width: 100%;
+		transition: all 0.3s;
+
+		&:hover {
+			filter: grayscale(0.5);
+		}
+	}
+
 	h2 {
 		text-align: center;
 	}
